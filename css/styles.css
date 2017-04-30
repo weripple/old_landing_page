@@ -1,0 +1,94 @@
+body{
+	padding: 40px 20px;
+	width: 100%;
+	text-align: center;
+	color: #405766;
+	font-family: 'Lato', sans-serif;
+}
+
+#logo {
+	max-width: 100%;
+	width: 280px;
+	margin-bottom: 20px;
+}
+
+.centered-text{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.slide-img {
+	height: 300px;
+}
+
+#mission {
+	font-size: 30px;
+	color: rgb(0,157,165);
+}
+
+.carousel-control.right, 
+.carousel-control.left{
+	background: none;
+}
+
+.carousel-caption {
+color: #405766;
+}
+
+.carousel-inner>.item>img {
+	height: 150px
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+.navbar ul{
+	padding: 0;
+}
+
+.navbar li{
+	display: inline;
+	margin: 16px;
+	font-size: 20px;
+	padding: 12px;
+	border: 1px solid rgb(0, 157, 165);
+}
+
+.button-active{
+	background: rgb(0, 157, 165);
+	color: white;
+}
+.button-nonactive a{
+	color: rgb(0, 157, 165);
+}
+
+.weripple-button{
+	font-size: 20px;
+	padding: 12px;
+	border: 1px solid rgb(0, 157, 165);
+}
+
+.featurette-heading{
+	font-weight: bold;
+}
+.featurette-image{
+	max-height: 360px;
+  max-width: 100%;
+  padding: 20px;
+
+}
+
+
+@media (max-width: 504px){
+	.navbar li{
+		display: inline-block;
+	}
+	#about-header{
+		font-size: 21sp;
+		margin-bottom: 30px;
+	}
+	#mission{
+		font-size: 27sp;
+	}
+}
+
